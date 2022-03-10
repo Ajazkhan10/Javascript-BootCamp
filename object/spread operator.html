@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>spread operator object in js </title>
+    </head>
+    <body>
+    <h3>spread operator object in javascript</h3>
+    <script>
+        var sub={cs:12,urdu:22,eng:33,math:44};
+        let ali={...sub};// this is spread operator
+        console.log(sub);
+        console.log(ali);
+
+        var marks=Object.assign({},sub);//this is spread operator
+        console.log(marks);
+
+        var course=JSON.parse(JSON.stringify(sub));// deep copy 
+        console.log(course);
+    </script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>filter in array</title>
+    </head>
+    <body>
+        <h2>filter in arrays</h2>
+        <script>
+            //The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+            const a=[12,22,33,44,55,66]
+            console.log(a);
+            const x=a.filter(n=>{
+                return n<50;
+            });
+            console.log(x);
+
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+console.log(words);
+const result = words.filter(word => word.length > 6);
+console.log(result);
+
+
+// var ary=[3,4,55,6,7];
+// var sum=aey.filter(number=>{
+//     number.length>3
+// });
+// console.log(sum);
+        </script>
+    </body>
+</html>

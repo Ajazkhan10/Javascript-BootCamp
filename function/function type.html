@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>type of function in javascript</title>
+    </head>
+    <body>
+        <script>
+            // function without parameter and without return value
+            function hi(){
+                document.write("hi how are you ?",'<br>');
+            }
+            hi();
+
+            //function without parameter and with return value
+            function return_me(){
+                return 'hi how are you ?';
+            }
+            document.write(return_me(),'<br>');
+
+            // function with parameter and without returning value 
+            function sum(num1,num2){
+                document.write(num1/num2,'<br>');
+            }
+            sum(3,5);
+
+
+            // function with parameter and with returning value
+            function person(firstname,lastname,age){
+                return (`${firstname} ${lastname} ${age} <br>`);
+            }
+            document.write(person('ijaz','khan',34));
+            document.write(person('sana','khan',34));
+            document.write(person('arbaz','khan',34));
+           
+            function add(input1,input2){
+                return input1+input2;
+            }
+            document.write(add(34,56),'<br>');
+
+
+            //    dfghdhasdhDASDjjkdha
+
+            let me = function(name){
+                document.write('yes i am available');
+            }
+            me('ijaz');
+        </script>
+    </body>
+</html>

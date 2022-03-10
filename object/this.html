@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> this keyward in object in js</title>
+    </head>
+    <body>
+        <h>this keyward in object in js</h>
+        <script>
+            var exam={
+                sub:'math',date:'12 june',time:'8.00 AM',
+            
+            timetable:function(){
+                return this.sub+" "+this.date+"  "+this.time;
+            },
+            };
+            console.log(exam.timetable());
+
+            var a={
+                a:23,
+            b:function(){
+                return this.a
+
+                },
+            };
+            console.log(a.b());
+        </script>
+    </body>
+</html>

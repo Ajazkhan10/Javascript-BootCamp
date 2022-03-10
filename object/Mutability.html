@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mutability object in js </title>
+    </head>
+    <body>
+    <h3>Mutability object in javascript</h3>
+    <script>
+        var person={
+            name:"elon",
+            lastname:"mask"
+        };
+        let person1={...person};// sprad operator in object 
+        console.log(person);
+        console.log(person1);
+
+        var a=24;
+        var b=a;// refencing here which is mubolity
+        console.log(a);
+        console.log(b);
+    </script>
+    </body>
+</html>

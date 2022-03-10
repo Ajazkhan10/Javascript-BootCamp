@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>arrow  function</title>
+    </head>
+    <body>
+        <script>
+ // arrow function 
+            let person=(name,age,dateofbirth,education)=>{
+                return name+age+dateofbirth+education;
+            }
+            console.log(person('ijaz',23,'10-04-1999','graduation'));
+
+//  anaonymus function
+            let a=()=>{
+             console.log("hay how are you dear !!")
+            }
+            a();
+
+// lambda function 
+            var anon = function (a, b) { return a + b };
+            console.log(anon(34,45));
+// concise finction
+            const squaere_root=(num)=>num*num*num;
+            console.log(squaere_root(3));
+
+            
+        </script>
+    </body>
+</html>

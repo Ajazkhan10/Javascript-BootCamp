@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object/Array as Parameters</title>
+    </head>
+    <body>
+        <script>
+// function that check str is palindrome 
+// function isplaindrame(str){
+//     let reversed='';
+//     for (let char of str){
+//         reversed= char+ reversed;
+//     }
+//     return reversed===str;
+
+// }
+// console.log(isplaindrame('madam'));
+// console.log(isplaindrame('dad'));
+// console.log(isplaindrame('abc'));
+
+// Write a program that takes in an integer as an argument and reverses it i.e. 52 ==> 25 etc
+function reverse_a_number(int){
+    int=int+"";
+    return int.split("").reverse().join("");
+}
+console.log(Number(reverse_a_number(2345)));
+
+
+        </script>
+    </body>
+</html>

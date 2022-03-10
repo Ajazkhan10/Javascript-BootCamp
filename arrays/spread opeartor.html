@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>spread operator</title>
+    </head>
+    <body>
+        <script>
+            function sum(a,b,c,d,e,f) {
+                return a+b+c+d+e+f;
+                
+            }
+            const number=[12,13,1,4,15,16];
+            document.write(sum(...number));// (...) is used for spraed opeartor in array
+
+            const value=["name","age","lastname","fathername"];
+             document.write (value(..."member")) ;
+            
+        </script>
+    </body>
+</html>

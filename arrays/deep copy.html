@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>deep coping in javascript arrays</title>
+    </head>
+    <body>
+    <script>
+    var ingredients_list = ["noodles",{"list":["eggs","flour","water"]}];
+    var ingredients_list_deepcopy = JSON.parse(JSON.stringify(ingredients_list));
+    document.write(ingredients_list+"<br>");
+    document.write(ingredients_list_deepcopy+"<br>");
+
+    var a=[12,{"number":[25,35]}];
+    var b=JSON.parse(JSON.stringify(a));
+    console.log(a);
+    console.log(b);
+
+</script>
+</body>
+</html>

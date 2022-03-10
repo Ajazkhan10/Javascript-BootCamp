@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practice</title>
+    </head>
+    <body>
+        <script>
+ //An array contains numbers along with -1. Sort the array in ascening order but the place of -1s should not be changed
+// let a = [-1, 150, 190, -1, -1, 160, 180];
+// function sortByHeight(a) {
+
+// const sortedA = [...a].sort((a, b) => a - b).filter((num) => num !== -1);
+// let sortedAIndex = 0;
+// for (let i = 0; i < a.length; i++) {
+
+// if (a[i] === -1) continue;
+// else {
+
+// a[i] = sortedA[sortedAIndex++];
+// }
+// }
+// return a;
+// }
+// console.log(sortByHeight(a));
+
+function sumPrimes(num) {
+  //create an array with values from 1 to 10
+  var val =Array.from({length: num}, (_, i) => i + 1)
+  
+  val = val.filter((number)=> {
+    for(var i = 2; i < number; i++){
+      if(number % i === 0){
+        
+        return false
+      }
+    }
+    return number > 1    // [2, 3, 5, 7]
+  }).reduce(function(a, b){
+    return a + b   //sum = 17
+  })
+return val
+  }
+  
+
+console.log(sumPrimes(20));
+
+
+//Sum All Primes
+//Pass in a number to loop upto and add all prime numbers
+//for example sumAllPrimes(20) =>  2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 = 77 
+// Hint: create a separate function to check if the number is prime
+
+// const SumAllPrime=function(num){
+//     for (let i =0;i<=20;i++){
+//         if 
+//     }
+// }
+        </script>
+    </body>
+</html>

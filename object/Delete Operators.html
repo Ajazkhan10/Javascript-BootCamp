@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delete Operators for Objects</title>
+    </head>
+    <body>
+        <h3>Delete Operators for Objects</h3>
+        <script>
+            var employee={
+                firstname:"nabeel",lastname:"hussain",age:45,salary:35000
+            };
+            
+            console.log(delete employee.age);// delete operator is used to delete any 
+            for (const detail in employee){
+                console.log(`${detail} : ${employee[detail]}`);
+
+            };
+
+            console.log(employee.firstname,employee.firstname,employee.salary);
+        </script>
+    </body>
+</html>

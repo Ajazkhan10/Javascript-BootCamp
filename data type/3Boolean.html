@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Boolean  in js</title>
+        
+</head>
+<body>
+    <p id="demo"></p>
+<script>
+    let x=0;//any number 0 empty is false
+    document.getElementById("demo").innerHTML=Boolean(x);
+</script>
+<p id="true"></p>
+<script>
+    let number=6>8;
+    document.getElementById("true").innerHTML=Boolean(number);
+</script>
+<p id="false"></p>
+<script>
+    let number1=6>=6;
+    document.getElementById("false").innerHTML=Boolean(number1);
+</script>
+<p id="equal"></p>
+<script>
+    let number2=6===6;
+    document.getElementById("equal").innerHTML=Boolean(number2);
+</script>
+<p id="not equal"></p>
+<script>
+    let number4=6!==6;
+    document.getElementById("not equal").innerHTML=Boolean(number4);
+</script>
+</body>
+</html>

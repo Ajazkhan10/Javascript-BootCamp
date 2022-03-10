@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>??  nullish coalescing</title>
+    </head>
+    <body>
+        <h3>??  nullish coalescing</h3> 
+<script>
+let foo;
+
+//  foo is never assigned any value so it is still undefined
+let someDummyText = foo || 'Hello!';
+console.log(someDummyText);
+    let name="";//falsey value
+    let gender=null;//null value
+    let age=22;
+var val1= name??"ijaz";
+var val2=gender??"defult print"
+var val3=age;
+        console.log(val1);
+        console.log(val2);
+        console.log(val3);
+
+let count = 0;
+let text = "";
+
+let qty = count || 42;
+let message = text || "hi!";
+console.log(qty);     // 42 and not 0
+console.log(message); // "hi!" and not ""
+
+</script>
+    </body>
+</html>

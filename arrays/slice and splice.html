@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>slice and splice in array</title>
+    </head>
+    <body>
+        <h2>slice and splice in arrays</h2>
+        <script>
+            const fruits=["mango","apple","orange","banana",23,23,34,45,45];
+            const  position=fruits.slice(1,5);// slice is used to print element in new array in between postion 1 to 5
+            document.write(fruits+"<br>");
+            document.write(position+"<br>");
+
+            fruits.splice(5,0,22,24,25,26);// splice is used to add some value in middle of and 5 is the position and 0 is we do not want to delete any value 
+document.write(fruits);
+
+        </script>
+    </body>
+</html>

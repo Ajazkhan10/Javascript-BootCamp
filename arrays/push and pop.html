@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pop, push ,join and tostring in javascript</title>
+    </head>
+        <p>pop, push ,join and tostring in javascript</p>
+<script>
+        
+        const a=[25,35,67,89,78]// example 1 for pop
+        console.log(a.pop());
+        console.log(a);
+        const x=[1,2,5,6,7,9]// example 2 for pop
+        x.pop();
+        console.log(x);
+
+        const city =["karachi","lahore","peshawar","islamabad","quetta","multan","pindi"]// example 3 for pop
+        const y=city.pop();
+        console.log(city);
+
+var i=[25,35,67,89,78]// example 1 for push 
+document.write(i.push(100));
+document.write(i.toString());//The toString() method returns an array as a comma separated string:
+document.write("<br>");
+document.write(i.join(" | "));// join is used to add something in arrays
+document.write(i);
+
+var t=[1,2,5,6,7,9]//example 2 for push
+var u=t.push(800)
+document.write("<br>"+t);
+
+const state =["karachi","lahore","peshawar","islamabad","quetta","multan","pindi"]// example 3 for push
+var b=state.push("hyderabad")
+document.write("<br>"+state);
+    
+</script>
+
+
+</html>

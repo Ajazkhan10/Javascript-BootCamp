@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>reduce in array</title>
+    </head>
+    <body>
+        <h2>reduce in arrays</h2>
+        <script>
+
+            const number=[10,20,25,15,100]
+        const sum=number.reduce((accumulator,currentvalue) =>{
+      return   accumulator+currentvalue;
+
+        });
+        document.write(sum);
+
+        const a=[25,163,14,15,6];
+        for (a>=0; a<=a.length;a++);
+        const sum_a=a.reduce((accumulator,currentvalue)=>{
+       return     accumulator+currentvalue;
+        }
+        );
+        alert(sum_a);
+        //const sub={
+         //  math:24,eng:55,urdu:45,comp:78 }  in object can we do that 
+//const sum_sub=sub.reduce((accumulator,currentvalue)=>{ return accumulator+currentvalue;
+//});
+//document.write("<br>"+sum_sub);
+        </script>
+    </body>
+</html>

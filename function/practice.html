@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>arrow  function</title>
+    </head>
+    <body>
+        <script>
+ //1. reversed any interger 
+            const reversed_number=(n)=>
+            {
+                n=n+"";
+                return n.split('').reverse().join('');
+
+            }
+            console.log(reversed_number(123456789));
+//2. Write a JavaScript function that checks whether a passed string is palindrome or not?
+         const Is_palindrame=(str)=>{
+             let reversed='';
+             for (let string of str){
+                 reversed=string+reversed;
+             }
+             return reversed===str;
+         }   
+         console.log(Is_palindrame('madam'));
+//3. Write a JavaScript function that generates all combinations of a string
+
+        </script>
+    </body>
+</html>
+
+const palindrome = (str) => {
+    return str == str.split('').reverse().join('');
+  };
+  palindrome();
